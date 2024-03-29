@@ -91,10 +91,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: rename file
-        run: |
-          cp setup_pypi_test.py setup.py
-
       - uses: actions/setup-python@v3
 
       - name: Set up QEMU
