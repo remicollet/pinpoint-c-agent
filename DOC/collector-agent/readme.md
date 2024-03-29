@@ -27,14 +27,14 @@
 ### 2. Use docker images
 
 ```sh
-docker run -itd -p 9999:9999  --env-file ./env.list ghcr.io/pinpoint-apm/pinpoint-c-agent/collector-agent:0.4.15
+docker run -itd -p 9999:9999  --env-file ./env.list ghcr.io/pinpoint-apm/pinpoint-c-agent/collector-agent:0.5.0
 ```
 ### 3. K8s side car
 
 server.yaml sample
 
 ``` yml
-- image: ghcr.io/pinpoint-apm/pinpoint-c-agent/collector-agent:0.4.14
+- image: ghcr.io/pinpoint-apm/pinpoint-c-agent/collector-agent:0.5.0
         name: collector-agent
         args: ["-RecvBufSize=1048576"]
         securityContext:
