@@ -1,7 +1,7 @@
 import logging
 from fastapi import FastAPI, Request, Response, Depends, HTTPException
 from starlette.middleware import Middleware
-from pinpointPy.Fastapi import PinPointMiddleWare, async_monkey_patch_for_pinpoint, use_starlette_context, asyn_monkey_patch_for_pinpoint, CommonPlugin
+from pinpointPy.Fastapi import PinPointMiddleWare, async_monkey_patch_for_pinpoint, use_starlette_context, CommonPlugin
 from pinpointPy import set_agent, monkey_patch_for_pinpoint
 from sqlalchemy.orm import Session
 from starlette_context.middleware import ContextMiddleware

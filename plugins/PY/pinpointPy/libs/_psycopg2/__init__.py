@@ -18,7 +18,6 @@
 # ------------------------------------------------------------------------------
 from pinpointPy.Interceptor import Interceptor, intercept_once
 from pinpointPy import get_logger
-from .PsycopgPlugins import ConnectionPlugin
 
 
 @intercept_once
@@ -26,6 +25,7 @@ def monkey_patch():
 
     try:
         import psycopg2
+        from .PsycopgPlugins import ConnectionPlugin
         Interceptors = [
             Interceptor(psycopg2, 'connect', ConnectionPlugin),
         ]
