@@ -1,7 +1,29 @@
-## Support Plan
-What we have supported and what will support: [support plan](SupportPlan.md)
+## Supported
 
-## Getting Started
+<details> <summary>Libraries</summary>
+
+Type|Name|Version
+---|---|---
+Built-in | curl| 
+||memcached|`3.2.0`
+||mysqli|
+||pdo|
+||phpredis|`6.0.2`
+|User |guzzlehttp| `8.0.x-dev`
+||predis|`3.0`
+||mongodb|`v1.19.x`
+</details> 
+
+<details> <summary>Frameworks</summary>
+ 
+Name|Version|
+|---|---|
+|Yii2||
+|wordpress||
+
+</details>
+
+## Get Started
 
 ### Requirement
 
@@ -69,9 +91,6 @@ We can DO but prefer not to DO! Because we have not yet found an efficient way t
 
 After full test, the AOP code could spend at least 1ms in our env(E5-2660 v4 @ 2.00GHz). While, the more function/method you monitor, the more you take.
 
-#### Performance Test Result
-
-     On the way
 
 ### For the developer
 
