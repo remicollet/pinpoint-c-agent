@@ -14,7 +14,7 @@ collector-agent| [installed ?](../collector-agent/readme.md)
 ### 설치 스텝
 
 1. `ext-pinpoint_php` 모듈 설치 
-    curl -sL https://github.com/***pinpoint-apm***/pinpoint-c-agent/releases/download/**v0.1.11**/install_pinpoint_php.sh | sh
+    curl -sL https://github.com/pinpoint-apm/pinpoint-c-agent/releases/download/v0.6.0/install_pinpoint_php.sh | sh
 
 2. pinpoint_php.ini 설정 파일 확인
      ```ini
