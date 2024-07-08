@@ -25,12 +25,12 @@ It is an agent written by C++, PHP and Python languages. And we hope to support 
 
 [How to install Collector-Agent](DOC/collector-agent/readme.md)
 
-### Install PHP / Python / C/CPP / Golang Agent
+### Install Agent
 
 language| tutorial
 ---|---
-php|[English](DOC/PHP/Readme.md) [中文](DOC/PHP/Readme-CN.md) [한국어](DOC/PHP/Readme-KR.md)
-python3|[English](DOC/PY/Readme.md) [中文](DOC/PY/Readme-CN.md) [한국어](DOC/PY/Readme-KR.md)
+php|[EN](DOC/PHP/Readme.md) [CN](DOC/PHP/Readme-CN.md) [KR](DOC/PHP/Readme-KR.md)
+python3|[EN](DOC/PY/Readme.md) [CN](DOC/PY/Readme-CN.md) [KR](DOC/PY/Readme-KR.md)
 c/cpp|[English](DOC/C-CPP/Readme.md)
 
 > [Try playground](/testapps/readme.md)
