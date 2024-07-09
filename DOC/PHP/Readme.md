@@ -94,9 +94,7 @@ After full test, the AOP code could spend at least 1ms in our env(E5-2660 v4 @ 2
 
 ### For the developer
 
-[Plugins Tutorial ☚](../../plugins/PHP/Readme.md)
-
-[PHP user manual ☚](./User%20Manual.md)
+[Plugins Tutorial ☚](https://github.com/pinpoint-apm/pinpoint-php-aop?tab=readme-ov-file#write-your-own-plugins)
 
 ### Known Issues
 
