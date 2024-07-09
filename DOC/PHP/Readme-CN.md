@@ -23,8 +23,8 @@ collector-agent| [installed ?](../collector-agent/readme.md)
      extension=pinpoint_php.so
      ; Collector-agent's TCP address, ip,port:Collector-Agent's ip,port, please ensure it consistent with the `PP_ADDRESS` of `Collector-Agent` in step2(Build Collector-Agent).
      pinpoint_php.CollectorHost=Tcp:ip:port
-     pinpoint_php.SendSpanTimeOutMs=0 # 0 is recommanded
-     ; request should be captured duing 1 second. < 0 means no limited
+     pinpoint_php.SendSpanTimeOutMs=0 # 0 is recommended
+     ; request should be captured during 1 second. < 0 means no limited
      pinpoint_php.TraceLimit=-1 
      ; DEBUG the agent, PHP's log_error should turn on too.
      ;pinpoint_php.DebugReport=true
