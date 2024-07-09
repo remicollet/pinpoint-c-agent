@@ -114,7 +114,7 @@ services:
         condition: service_started
     restart: always
     build:
-      dockerfile: testapps/SimplePHP/php.dockerfile
+      dockerfile: testapps/PHP/php.dockerfile
       context: ../
     ports:
       - 8185:80
