@@ -223,7 +223,9 @@ jobs:
           php-version: '8.3'
 
       - name: pecl package
-        run: pecl package
+        run: |
+        pecl package
+        pecl build
 
       # - name: Package pinpoint_php
       #   id: pack
