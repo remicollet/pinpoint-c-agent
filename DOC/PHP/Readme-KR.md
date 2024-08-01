@@ -2,19 +2,23 @@
 
 ### 요구
 
-디펜던시 | 버전 | 부가
----|----|----
-PHP| php `7+`|
-GCC| GCC `4.7+`| C++11 
-*inux|| `windows is on the way`
-pinpoint| `2.0+`|
-composer| | class can be automatic pinpoint-cut
-collector-agent| [installed ?](../collector-agent/readme.md)
+| 디펜던시            | 버전                                        | 부가                                |
+| ------------------- | ------------------------------------------- | ----------------------------------- |
+| PHP                 | php `7+`                                    |
+| *inux/windows/macOs |                                             | windows is released                 |
+| pinpoint            | `2.0+`                                      |
+| composer            |                                             | class can be automatic pinpoint-cut |
+| collector-agent     | [installed ?](../collector-agent/readme.md) |
 
 ### 설치 스텝
 
 1. `ext-pinpoint_php` 모듈 설치 
-    curl -sL https://github.com/pinpoint-apm/pinpoint-c-agent/releases/download/v0.6.0/install_pinpoint_php.sh | sh
+   
+     `pecl install pinpoint_php`
+     or 
+     `curl -sL https://github.com/pinpoint-apm/pinpoint-c-agent/releases/download/latest/install_pinpoint_php.sh | sh`
+
+     > On windows: download .dll from  https://pecl.php.net/package/pinpoint_php  or https://github.com/pinpoint-apm/pinpoint-c-agent/releases/latest
 
 2. pinpoint_php.ini 설정 파일 확인
      ```ini

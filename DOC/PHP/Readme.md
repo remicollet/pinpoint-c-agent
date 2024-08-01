@@ -6,21 +6,24 @@
 
 ### Requirement
 
-Dependency|Version| More
----|----|----
-PHP| php `7+`|
-GCC| GCC `4.7+`| C++11 
-*inux|| `windows is on the way`
-pinpoint| `2.0+`|
-composer| | class can be automatic pinpoint-cut
-collector-agent| [installed ?](../collector-agent/readme.md)
+| Dependency          | Version                                     | More                                |
+| ------------------- | ------------------------------------------- | ----------------------------------- |
+| PHP                 | php `7+`                                    |
+| *inux/windows/macOs |                                             | windows is released                 |
+| pinpoint            | `2.0+`                                      |
+| composer            |                                             | class can be automatic pinpoint-cut |
+| collector-agent     | [installed ?](../collector-agent/readme.md) |
 
 ### Installation
 
 #### Steps
 1. Install `ext-pinpoint_php`
 
-   curl -sL https://github.com/pinpoint-apm/pinpoint-c-agent/releases/download/v0.6.0/install_pinpoint_php.sh | sh
+     `pecl install pinpoint_php`
+     or 
+     `curl -sL https://github.com/pinpoint-apm/pinpoint-c-agent/releases/download/latest/install_pinpoint_php.sh | sh`
+
+     > On windows: download .dll from  https://pecl.php.net/package/pinpoint_php  or https://github.com/pinpoint-apm/pinpoint-c-agent/releases/latest
 
 2. Check your pinpoint_php.ini is right
          

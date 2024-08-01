@@ -78,6 +78,8 @@ private:
     }
     if (span_timeout > 0) {
       trans->SyncSendAll(span_timeout);
+    } else if (span_timeout < 0) {
+      pp_trace("[unittest] current span was dropped");
     } else {
       trans->PoolEventOnce(0);
     }
@@ -167,7 +169,8 @@ public:
         } else if (w_trace->limit & E_TRACE_BLOCK) {
           pp_trace("current [%d] span dropped,due to TRACE_BLOCK", w_trace->getId());
         } else {
-          pp_trace("current [%d] span dropped,due to limit=%ld", w_trace->getId(), w_trace->limit);
+          pp_trace("current [%d] span dropped,due to limit=%" PRIu64 "", w_trace->getId(),
+                   w_trace->limit);
         }
       } else {
         w_trace->EndTimer();
