@@ -134,7 +134,7 @@ jobs:
     strategy:
       matrix:
         php-versions: [ "7.4", "7.3", "7.2","7.1","8.0", "8.1", "8.2", "8.3"]
-        arch: [ "x86" ,"x64"]
+        arch: [ "x64"]
         ts: [ "ts", "nts" ]
     env:
       SKIP_WINDOWS_ACTION: true
