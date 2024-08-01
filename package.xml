@@ -16,12 +16,6 @@
     <email>liu_ming_yi@outlook.com</email>
     <active>yes</active>
   </lead>
-  <lead>
-    <name>dl_cd_pinpoint</name>
-    <user>dl_cd_pinpoint</user>
-    <email>dl_cd_pinpoint@navercorp.com</email>
-    <active>yes</active>
-  </lead>
   <date>2024-08-07</date>
   <version>
     <release>0.5.3</release>
