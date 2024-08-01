@@ -19,9 +19,9 @@
 #### Steps
 1. Install `ext-pinpoint_php`
 
-     `pecl install pinpoint_php`
+     `pecl install pinpoint_php-0.5.3`
      or 
-     `curl -sL https://github.com/pinpoint-apm/pinpoint-c-agent/releases/download/latest/install_pinpoint_php.sh | sh`
+     `curl -sL https://github.com/pinpoint-apm/pinpoint-c-agent/releases/download/v0.6.3/install_pinpoint_php.sh | sh`
 
      > On windows: download .dll from  https://pecl.php.net/package/pinpoint_php  or https://github.com/pinpoint-apm/pinpoint-c-agent/releases/latest
 
