@@ -224,8 +224,8 @@ jobs:
 
       - name: pecl package
         run: |
-        pecl package
-        pecl build
+          pecl package
+          pecl build
 
       # - name: Package pinpoint_php
       #   id: pack
