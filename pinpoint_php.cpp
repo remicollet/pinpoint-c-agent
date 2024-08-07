@@ -206,7 +206,7 @@ void (*old_error_cb)(int type, const char *error_filename,
   }
 
 PHP_FUNCTION(_pinpoint_drop_trace) {
-  NodeID id = E_ROOT_NODE, cur_id = E_ROOT_NODE;
+  NodeID id = E_ROOT_NODE;
 #if PHP_VERSION_ID < 70000
   size_t _id = -1;
   zend_parse_parameters(ZEND_NUM_ARGS() TSRMLS_CC, "|l", &_id);
