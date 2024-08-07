@@ -1,3 +1,18 @@
+[English](Readme.md) | [中文](Readme-CN.md) | [한국어](Readme-KR.md)
+
+![pinpoint](images/logo.png)
+
+[![CI](https://github.com/pinpoint-apm/pinpoint-c-agent/actions/workflows/main.yml/badge.svg)](https://github.com/pinpoint-apm/pinpoint-c-agent/actions/workflows/main.yml) [![Gitter](https://badges.gitter.im/naver/pinpoint-c-agent.svg)](https://gitter.im/naver/pinpoint-c-agent?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge) [![codecov](https://codecov.io/gh/pinpoint-apm/pinpoint-c-agent/branch/master/graph/badge.svg?token=KswbmFvWp3)](https://codecov.io/gh/pinpoint-apm/pinpoint-c-agent) [![License](https://img.shields.io/github/license/pinpoint-apm/pinpoint-c-agent)](LICENSE) \
+`pinpoint_php_ext:` [![pinpoint_php](https://img.shields.io/badge/php-7.1~8.3-8892BF)](https://pecl.php.net/package/pinpoint_php)\
+`pinpoint-php-aop:` ![Packagist License](https://img.shields.io/packagist/l/pinpoint-apm/pinpoint-php-aop)
+ [![Total Downloads](https://img.shields.io/packagist/dt/pinpoint-apm/pinpoint-php-aop.svg?style=flat-square)](https://packagist.org/packages/pinpoint-apm/pinpoint-php-aop)\
+`pinpointpy:` ![PyPI - License](https://img.shields.io/pypi/l/pinpointpy)
+ [![pypi](https://badge.fury.io/py/pinpointpy.svg)](https://pypi.org/project/pinpointpy/)
+![PyPI - Downloads](https://img.shields.io/pypi/dm/pinpointpy)
+
+
+**Visit [our official website](http://pinpoint-apm.github.io/pinpoint/) for more information and [the Latest updates on Pinpoint](https://pinpoint-apm.github.io/pinpoint/news.html)**  
+
 # Pinpoint `C` Agent
 
 > 왜 `c-agent` 라고 이름을 지었을까?
