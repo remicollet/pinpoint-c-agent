@@ -614,7 +614,7 @@ static inline zend_string *merge_pp_style_name(zend_string *scope,
 #if (PHP_MAJOR_VERSION == 8 && PHP_MINOR_VERSION >= 2)
 
 // ref from php-8.2.19/ext/standard/var.c:137
-static zval *zend_array_index(zval *ar, int index) {
+static zval *zend_array_index(zval *ar, uint32_t index) {
   HashTable *__ht = Z_ARRVAL_P(ar);
   uint32_t _idx = 0;
   uint32_t _count = __ht->nNumUsed - _idx;
@@ -768,7 +768,7 @@ static void replace_ex_caller_parameters(zval *argv) {
     return;
   }
 
-  int size = zend_array_count(Z_ARRVAL_P(argv));
+  uint32_t size = zend_array_count(Z_ARRVAL_P(argv));
   pp_trace("argv size:%d", size);
   uint32_t param_count = ZEND_CALL_NUM_ARGS(EG(current_execute_data));
   if (size != param_count) {
@@ -777,7 +777,7 @@ static void replace_ex_caller_parameters(zval *argv) {
     return;
   }
 
-  int i = 0;
+  uint32_t i = 0;
   zval *ex_param_ptr = ZEND_CALL_ARG(EG(current_execute_data), 1);
 
   // check old and new
