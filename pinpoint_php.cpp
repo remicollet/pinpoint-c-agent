@@ -67,7 +67,7 @@ ZEND_GET_MODULE(pinpoint_php)
 #endif
 
 ZEND_DECLARE_MODULE_GLOBALS(pinpoint_php);
-static void pinpoint_log(char *msg);
+//static void pinpoint_log(char *msg);
 
 // clang-format off
 /* {{{ PHP_INI
@@ -1270,6 +1270,7 @@ PHP_MINFO_FUNCTION(pinpoint_php) {
 }
 /* }}} */
 
+/*
 void pinpoint_log(char *msg) {
 #if PHP_VERSION_ID >= 70100
   php_log_err_with_severity(msg, LOG_DEBUG);
@@ -1278,3 +1279,4 @@ void pinpoint_log(char *msg) {
   php_log_err(msg TSRMLS_CC);
 #endif
 }
+*/
