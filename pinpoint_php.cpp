@@ -1262,6 +1262,7 @@ PHP_RSHUTDOWN_FUNCTION(pinpoint_php) {
 PHP_MINFO_FUNCTION(pinpoint_php) {
   php_info_print_table_start();
   php_info_print_table_header(2, "pinpoint_php support", "enabled");
+  php_info_print_table_header(2, "pinpoint_php extension version", PHP_PINPOINT_PHP_VERSION);
   php_info_print_table_end();
 
   //    /* Remove comments if you have entries in php.ini
